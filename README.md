@@ -3,6 +3,11 @@ It is a useful component for highlighting potential problems in an application. 
 ## Adjacent JSX Elements Must Be Wrapped In An Enclosing Tag 
 Use fragment to wrap the two component. You are returning two elements simultaneously which causes that error 
 ## Component composition
+Component composition is a fundamental concept in React that allows us to build complex UIs by combining smaller, independent components. 
+It provides the following advantages:
+- **Reusability**: components can be reused
+- **Maintainability**: easier to update and manage the code
+- **Improved Readability**: Smaller, focused components are easier to understand and debug 
 ```js
 const Header = () => <h1>Welcome !< /h1>; 
 const Content = () => <p>This is the main content .< /p>; 
