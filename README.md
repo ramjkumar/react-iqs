@@ -23,4 +23,5 @@ const Page = () => (
 Rendering UI based on the condition
 ### Why index should not be used as key in for loop or map 
 - When we have components at same level and if a new component comes without ID, DOM will re-render all components again, as DOM can't identify where to place it. 
-- But if we give unique ID, react knows where to put that component according to the ID. It is good for optimization and performance. 
+- But if we give unique ID, react knows where to put that component according to the ID. It is good for optimization and performance.
+- [Topic 1](topic1.md)
