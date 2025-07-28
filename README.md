@@ -8,9 +8,9 @@ const Header = () => <h1>Welcome !< /h1>;
 const Content = () => <p>This is the main content .< /p>; 
 const Footer = () => <small>@ 2025</small>; 
 const Page = () => ( 
-<div> 
-<Header /> 
-<Content /> 
-<Footer /> 
-</div>
+  <div> 
+    <Header /> 
+    <Content /> 
+    <Footer /> 
+  </div> )
   ```
